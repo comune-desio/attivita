@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <%= partial "/partials/head" %>
+  </head>
+  <body>
+    <%= partial "/partials/header" %>
+    <%= yield %>
+
+    <%= javascript_include_tag "https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js" %>
+    <%= javascript_include_tag :application %>
+  </body>
+</html>
