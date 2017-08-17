@@ -9,7 +9,7 @@
 
   var mapboxSettings = {
     accessToken: "pk.eyJ1Ijoib2xpc3RpayIsImEiOiJjaW03a2lvd2MwMDBsdzhtNTZzeG9pYzFsIn0.EnuMVTEKyFfJN6XZhtLmIA",
-    tileLayerId: "olistik.00d43ij6" // or "mapbox.streets"
+    tileLayerId: "mapbox.streets"
   };
 
   var viewSettings = {
